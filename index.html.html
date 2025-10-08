@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AR Market Hub</title>
+  <style>
+    * {margin:0; padding:0; box-sizing:border-box;}
+    body {font-family:'Segoe UI', Tahoma, sans-serif; line-height:1.6;}
+    header {background:linear-gradient(to right,#0056b3,#007bff); color:#fff; padding:15px 0; position:sticky; top:0; z-index:1000;}
+    nav {display:flex; justify-content:center; gap:20px; flex-wrap:wrap;}
+    nav a {color:#fff; text-decoration:none; font-weight:bold; padding:8px 15px; border-radius:5px; transition:0.3s;}
+    nav a:hover {background: rgba(255,255,255,0.2);}
+    section {padding:40px 20px; max-width:1100px; margin:auto;}
+    h1,h2 {text-align:center; margin-bottom:20px;}
+    .hero {background: url('https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb') center/cover no-repeat; height:300px; display:flex; justify-content:center; align-items:center; color:white; text-shadow:2px 2px 4px #000; flex-direction:column;}
+    .hero h1 {font-size:2.5rem;}
+    .products {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px;}
+    .product-card {border:1px solid #ddd; border-radius:10px; overflow:hidden; background:#fff; box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+    .product-card img {width:100%; height:250px; object-fit:cover;}
+    .product-card .info {padding:10px; text-align:center;}
+    .whatsapp-btn {display:inline-block; background:#25D366; color:#fff; padding:10px 20px; border-radius:5px; text-decoration:none; margin-top:10px;}
+    .whatsapp-btn:hover {background:#1da851;}
+    footer {background:#0056b3; color:white; text-align:center; padding:15px; margin-top:50px;}
+    form {display:flex; flex-direction:column; gap:10px; max-width:500px; margin:auto;}
+    form input, form select, form textarea {padding:8px; border-radius:5px; border:1px solid #ccc; width:100%;}
+    form button {padding:10px; background:#007bff; color:white; border:none; border-radius:5px; cursor:pointer;}
+    form button:hover {background:#0056b3;}
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#home">🏠 Home</a>
+    <a href="#clothes">👕 Clothes</a>
+    <a href="#jewellery">💍 Jewellery</a>
+    <a href="#size">📏 Size Form</a>
+    <a href="#contact">📞 Contact</a>
+    <a href="https://www.facebook.com/profile.php?id=61581604381891" target="_blank">📘 Facebook</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>AR Market Hub</h1>
+  <p>آپ کا بھروسہ، ہمارا عزم — Your Trusted Fashion Destination</p>
+  <a class="whatsapp-btn" href="https://wa.me/923068409323" target="_blank">📲 WhatsApp پر رابطہ کریں</a>
+</section>
+
+<section id="clothes">
+  <h2>👕 Clothes — Existing Designs</h2>
+  <div class="products">
+    <div class="product-card">
+      <img src="https://i.postimg.cc/tJkF7GbX/C1.jpg" alt="Cloth Female 1">
+      <div class="info">
+        <p>Cloth Female — 1700</p>
+        <a class="whatsapp-btn" href="https://wa.me/923068409323">Order Now</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/Hkc71yrX/C2.jpg" alt="Cloth Female 2">
+      <div class="info">
+        <p>Cloth Female — 1700</p>
+        <a class="whatsapp-btn" href="https://wa.me/923068409323">Order Now</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/Xv6XMDMD/C3.jpg" alt="Cloth Female 3">
+      <div class="info">
+        <p>Cloth Female — 1700</p>
+        <a class="whatsapp-btn" href="https://wa.me/923068409323">Order Now</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/fRmTvj3y/C4.jpg" alt="Cloth Female 4">
+      <div class="info">
+        <p>Cloth Female — 1700</p>
+        <a class="whatsapp-btn" href="https://wa.me/923068409323">Order Now</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/Y0TM6hMy/C5.jpg" alt="Cloth Female 5">
+      <div class="info">
+        <p>Cloth Female — 1700</p>
+        <a class="whatsapp-btn" href="https://wa.me/923068409323">Order Now</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/RhJzZ4KT/C7f.jpg" alt="Cloth Female 6">
+      <div class="info">
+        <p>Cloth Female — 2000</p>
+        <a class="whatsapp-btn" href="https://wa.me/923068409323">Order Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="jewellery">
+  <h2>💍 Jewellery</h2>
+  <div class="products">
+    <div class="product-card">
+      <img src="https://i.postimg.cc/wTDSfWV8/B1.jpg" alt="Jewellery 1">
+      <div class="info">
+        <p>Jewellery — 350</p>
+        <a class="whatsapp-btn" href="https://wa.me/923068409323">Order Now</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/wxLfg1sf/B3.jpg" alt="Jewellery 2">
+      <div class="info">
+        <p>Jewellery — 350</p>
+        <a class="whatsapp-btn" href="https://wa.me/923068409323">Order Now</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/wM8wDpnX/B2.jpg" alt="Jewellery 3">
+      <div class="info">
+        <p>Jewellery — 350</p>
+        <a class="whatsapp-btn" href="https://wa.me/923068409323">Order Now</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/vHzd8qVd/J1r.jpg" alt="Jewellery 4">
+      <div class="info">
+        <p>Jewellery — 375</p>
+        <a class="whatsapp-btn" href="https://wa.me/923068409323">Order Now</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/sgXbjVz1/j2r.jpg" alt="Jewellery 5">
+      <div class="info">
+        <p>Jewellery — 400</p>
+        <a class="whatsapp-btn" href="https://wa.me/923068409323">Order Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="size">
+  <h2>📏 Size Form — Male & Female</h2>
+  <form action="https://wa.me/923068409323" method="get" target="_blank">
+    <label>نام / Name</label>
+    <input type="text" name="name" placeholder="آپ کا نام">
+    
+    <label>فون نمبر / Phone</label>
+    <input type="text" name="phone" placeholder="0306-xxxxxxx">
+    
+    <label>قسم / Type</label>
+    <select name="type">
+      <option value="male">Male / مرد</option>
+      <option value="female">Female / خواتین</option>
+    </select>
+    
+    <label>قمیض / Shirt (Chest)</label>
+    <input type="text" name="shirt_chest" placeholder="انچ">
+    
+    <label>قمیض / Shirt Length</label>
+    <input type="text" name="shirt_length" placeholder="انچ">
+    
+    <label>بازو کی لمبائی / Sleeve Length</label>
+    <input type="text" name="sleeve" placeholder="انچ">
+    
+    <label>شلوار / Salwar (Waist)</label>
+    <input type="text" name="salwar_waist" placeholder="انچ">
+    
+    <label>شلوار / Salwar Length</label>
+    <input type="text" name="salwar_length" placeholder="انچ">
+    
+    <label>اضافی نوٹس / Notes</label>
+    <textarea name="notes" placeholder="خاص درخواستیں"></textarea>
+    
+    <button type="submit">Submit / بھیجیں</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>📞 Contact / رابطہ</h2>
+  <p style="text-align:center; margin-bottom:10px;">
+    WhatsApp: <a href="https://wa.me/923068409323" target="_blank">0306-8409323</a><br>
+    Lahore, Pakistan
+  </p>
+  <div style="text-align:center;">
+    <a class="whatsapp-btn" href="https://wa.me/923068409323" target="_blank">📲 WhatsApp پر آرڈر کریں</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 AR Market Hub | CEO: Rabia Akram | Designed with ❤️</p>
+</footer>
+
+<!-- Tawk.to Live Chat Script -->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/68e5f131c1d9ed1951039d79/1j713cb32';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+</body>
+</html>
